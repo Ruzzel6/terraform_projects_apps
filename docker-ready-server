@@ -33,3 +33,10 @@ docker exec nginx bash -c 'echo "<h1>Hello from terraform docker aws </h1>" > /u
 EOF
 }
 
+
+
+terraform init
+terraform validate
+terraform plan
+terraform apply
+terraform destroy //After checking
